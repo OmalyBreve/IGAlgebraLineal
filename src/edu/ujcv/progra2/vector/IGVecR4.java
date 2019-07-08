@@ -1,9 +1,12 @@
 package edu.ujcv.progra2.vector;
 
 public class IGVecR4 {
-    
+    private double x;
+    private double y;
+    private double z;
+    private double w;
     public IGVecR4 suma(IGVecR4 b){
-        //TODO: implementar
+        int IGVectoR4 =
         return new IGVecR4();
     }
 
