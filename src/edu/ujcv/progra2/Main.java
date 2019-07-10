@@ -161,19 +161,19 @@ public class Main {
                         }
                         if (operaVec == 2) {
                             IGVecR3 a = new IGVecR3();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             IGVecR3 b = new IGVecR3();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             b.setX(sc.nextDouble());
                             b.setY(sc.nextDouble());
                             b.setZ(sc.nextDouble());
                             IGVecR3 x = a.resta(b);
                             IGVecR3 y = a.resta(b);
                             IGVecR3 z = a.resta(b);
-                            System.out.println("Su resultado es");
+                            System.out.println("El resultado es");
                             System.out.print(x.getX());
                             System.out.print("," + y.getY());
                             System.out.println("," + z.getZ());
@@ -184,7 +184,7 @@ public class Main {
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
-                            System.out.println("ingrese Alpha");
+                            System.out.println("Ingrese Alpha");
                             double alpha = sc.nextDouble();
                             IGVecR3 Resul = a.escalarPorVector(alpha);
                             System.out.println("El resultado es: (" + Resul.getX() + ", " + Resul.getY() + ", " + Resul.getZ() + ")\n");
@@ -192,76 +192,76 @@ public class Main {
                         }
                         if (operaVec == 4) {
                             IGVecR3 a = new IGVecR3();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             IGVecR3 b = new IGVecR3();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             b.setX(sc.nextDouble());
                             b.setY(sc.nextDouble());
                             b.setZ(sc.nextDouble());
                             double x = a.productoPunto(b);
                             double y = a.productoPunto(b);
                             double z = a.productoPunto(b);
-                            System.out.println("Su resultado es");
+                            System.out.println("El resultado es");
                             System.out.print(x);
                             System.out.print("," + y);
                             System.out.println("," + z);
                         }
                         if (operaVec == 5) {
                             IGVecR3 a = new IGVecR3();
-                            System.out.println("ingrese los componentes");
+                            System.out.println("Ingrese los elementos");
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             IGVecR3 b = new IGVecR3();
-                            System.out.println("ingrese las componentes");
+                            System.out.println("Ingrese los elementos");
                             b.setX(sc.nextDouble());
                             b.setY(sc.nextDouble());
                             b.setZ(sc.nextDouble());
                             IGVecR3 x = a.productoCruz(b);
                             IGVecR3 y = a.productoCruz(b);
                             IGVecR3 z = a.productoCruz(b);
-                            System.out.println("Su resultado es");
+                            System.out.println("El resultado es");
                             System.out.print(x.getX());
                             System.out.print("," + y.getY());
                             System.out.println("," + z.getZ());
                         }
                         if (operaVec == 6) {
                             IGVecR3 a = new IGVecR3();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             IGVecR3 b = new IGVecR3();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             b.setX(sc.nextDouble());
                             b.setY(sc.nextDouble());
                             b.setZ(sc.nextDouble());
                             double x = a.magnitud(b);
                             double y = a.magnitud(b);
                             double z = a.magnitud(b);
-                            System.out.println("Su resultado es");
+                            System.out.println("El resultado es");
                             System.out.print(x);
                             System.out.print("," + y);
                             System.out.println("," + z);
                         }
                         if (operaVec == 7) {
                             IGVecR3 a = new IGVecR3();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             IGVecR3 b = new IGVecR3();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             b.setX(sc.nextDouble());
                             b.setY(sc.nextDouble());
                             b.setZ(sc.nextDouble());
                             double x = a.angulo(b);
                             double y = a.angulo(b);
                             double z = a.angulo(b);
-                            System.out.println("Su resultado es");
+                            System.out.println("El resultado es");
                             System.out.print(x);
                             System.out.print("," + y);
                             System.out.println("," + z);
@@ -273,23 +273,23 @@ public class Main {
                     }
 
                     if (TipoVec == 3) {
-                        System.out.println("presione 1 para calcular suma en R4");
-                        System.out.println("presione 2 para calcular resta en R4");
-                        System.out.println("presione 3 para calcular escalarPorVector R4");
-                        System.out.println("presione 4 para calcular productoPunto en R4");
-                        System.out.println("presione 5 para calcular magnitud en R4");
-                        System.out.println("presione 6 para calcular angulo en R4");
+                        System.out.println("Presione 1 para calcular Suma en R4");
+                        System.out.println("Presione 2 para calcular Resta en R4");
+                        System.out.println("Presione 3 para calcular EscalarPorVector R4");
+                        System.out.println("Presione 4 para calcular ProductoPunto en R4");
+                        System.out.println("Presione 5 para calcular Magnitud en R4");
+                        System.out.println("Presione 6 para calcular Angulo en R4");
                         int operaVec = sc.nextInt();
 
                         if (operaVec == 1) {
                             IGVecR4 a = new IGVecR4();
-                            System.out.println("ingrese los componentes");
+                            System.out.println("Ingrese los elementos");
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             a.setW(sc.nextDouble());
                             IGVecR4 b = new IGVecR4();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             b.setX(sc.nextDouble());
                             b.setY(sc.nextDouble());
                             b.setZ(sc.nextDouble());
@@ -298,7 +298,7 @@ public class Main {
                             IGVecR4 y = a.suma(b);
                             IGVecR4 z = a.suma(b);
                             IGVecR4 w = a.suma(b);
-                            System.out.println("Su resultado es");
+                            System.out.println("El resultado es");
                             System.out.print(x.getX());
                             System.out.print("," + y.getY());
                             System.out.print("," + z.getZ());
@@ -306,13 +306,13 @@ public class Main {
                         }
                         if (operaVec == 2) {
                             IGVecR4 a = new IGVecR4();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             a.setW(sc.nextDouble());
                             IGVecR4 b = new IGVecR4();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             b.setX(sc.nextDouble());
                             b.setY(sc.nextDouble());
                             b.setZ(sc.nextDouble());
@@ -321,7 +321,7 @@ public class Main {
                             IGVecR4 y = a.resta(b);
                             IGVecR4 z = a.resta(b);
                             IGVecR4 w = a.resta(b);
-                            System.out.println("Su resultado es");
+                            System.out.println("El resultado es");
                             System.out.print(x.getX());
                             System.out.print("," + y.getY());
                             System.out.print("," + z.getZ());
@@ -334,20 +334,20 @@ public class Main {
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             a.setW(sc.nextDouble());
-                            System.out.println("ingrese Alpha");
+                            System.out.println("Ingrese Alpha");
                             double alpha = sc.nextDouble();
                             IGVecR4 Resul = a.escalarPorVector(alpha);
                             System.out.println("El resultado es: (" + Resul.getX() + ", " + Resul.getY() + ", " + Resul.getZ() + ", " + Resul.getW() + ")\n");
                         }
                         if (operaVec == 4) {
                             IGVecR4 a = new IGVecR4();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             a.setW(sc.nextDouble());
                             IGVecR4 b = new IGVecR4();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             b.setX(sc.nextDouble());
                             b.setY(sc.nextDouble());
                             b.setZ(sc.nextDouble());
@@ -356,7 +356,7 @@ public class Main {
                             double y = a.productoPunto(b);
                             double z = a.productoPunto(b);
                             double w = a.productoPunto(b);
-                            System.out.println("Su resultado es");
+                            System.out.println("El resultado es");
                             System.out.print(x);
                             System.out.print("," + y);
                             System.out.print("," + z);
@@ -364,13 +364,13 @@ public class Main {
                         }
                         if (operaVec == 5) {
                             IGVecR4 a = new IGVecR4();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             a.setW(sc.nextDouble());
                             IGVecR4 b = new IGVecR4();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             b.setX(sc.nextDouble());
                             b.setY(sc.nextDouble());
                             b.setZ(sc.nextDouble());
@@ -379,7 +379,7 @@ public class Main {
                             double y = a.magnitud(b);
                             double z = a.magnitud(b);
                             double w = a.magnitud(b);
-                            System.out.println("Su resultado es");
+                            System.out.println("El resultado es");
                             System.out.print(x);
                             System.out.print("," + y);
                             System.out.print("," + z);
@@ -387,13 +387,13 @@ public class Main {
                         }
                         if (operaVec == 6) {
                             IGVecR4 a = new IGVecR4();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             a.setX(sc.nextDouble());
                             a.setY(sc.nextDouble());
                             a.setZ(sc.nextDouble());
                             a.setW(sc.nextDouble());
                             IGVecR4 b = new IGVecR4();
-                            System.out.println("ingrese las variables");
+                            System.out.println("Ingrese las variables");
                             b.setX(sc.nextDouble());
                             b.setY(sc.nextDouble());
                             b.setZ(sc.nextDouble());
@@ -402,7 +402,7 @@ public class Main {
                             double y = a.angulo(b);
                             double z = a.angulo(b);
                             double w = a.angulo(b);
-                            System.out.println("Su resultado es");
+                            System.out.println("El resultado es");
                             System.out.print(x);
                             System.out.print("," + y);
                             System.out.print("," + z);
@@ -411,17 +411,17 @@ public class Main {
                     }
                 }
                 if (menu == 2) {
-                    System.out.println("presione 1 para calcular Matrices en R2");
-                    System.out.println("presione 2 para calcular Matrices en R3 ");
-                    System.out.println("presione 3 para calcular Matrices en R4");
+                    System.out.println("Presione 1 para calcular Matrices en R2");
+                    System.out.println("Presione 2 para calcular Matrices en R3 ");
+                    System.out.println("Presione 3 para calcular Matrices en R4");
                     int TipoMat = sc.nextInt();
                     if (TipoMat == 1) {
-                        System.out.println("presione 1 para calcular  en R2");
-                        System.out.println("presione 2 para calcular  en R2");
-                        System.out.println("presione 3 para calcular  en R2");
-                        System.out.println("presione 4 para calcular  en R2");
-                        System.out.println("presione 5 para calcular  en R2");
-                        System.out.println("presione 6 para calcular  en R2");
+                        System.out.println("Presione 1 para calcular  en R2");
+                        System.out.println("Presione 2 para calcular  en R2");
+                        System.out.println("Presione 3 para calcular  en R2");
+                        System.out.println("Presione 4 para calcular  en R2");
+                        System.out.println("Presione 5 para calcular  en R2");
+                        System.out.println("Presione 6 para calcular  en R2");
                         int operaMat = sc.nextInt();
                         if (operaMat == 1) {
                         }
@@ -438,12 +438,12 @@ public class Main {
                     }
 
                     if (TipoMat == 2) {
-                        System.out.println("presione 1 para calcular  en R3");
-                        System.out.println("presione 2 para calcular  en R3");
-                        System.out.println("presione 3 para calcular  en R3");
-                        System.out.println("presione 4 para calcular  en R3");
-                        System.out.println("presione 5 para calcular  en R3");
-                        System.out.println("presione 6 para calcular  en R3");
+                        System.out.println("Presione 1 para calcular  en R3");
+                        System.out.println("Presione 2 para calcular  en R3");
+                        System.out.println("Presione 3 para calcular  en R3");
+                        System.out.println("Presione 4 para calcular  en R3");
+                        System.out.println("Presione 5 para calcular  en R3");
+                        System.out.println("Presione 6 para calcular  en R3");
                         int operaMat = sc.nextInt();
                         if (operaMat == 1) {
                         }
@@ -459,12 +459,12 @@ public class Main {
                         }
                     }
                     if (TipoMat == 3) {
-                        System.out.println("presione 1 para calcular  en R4");
-                        System.out.println("presione 2 para calcular  en R4");
-                        System.out.println("presione 3 para calcular  en R4");
-                        System.out.println("presione 4 para calcular en R4");
-                        System.out.println("presione 5 para calcular  en R4");
-                        System.out.println("presione 6 para calcular  en R4");
+                        System.out.println("Presione 1 para calcular  en R4");
+                        System.out.println("Presione 2 para calcular  en R4");
+                        System.out.println("Presione 3 para calcular  en R4");
+                        System.out.println("Presione 4 para calcular en R4");
+                        System.out.println("Presione 5 para calcular  en R4");
+                        System.out.println("Presione 6 para calcular  en R4");
                         int operaMat = sc.nextInt();
 
                         if (operaMat == 1) {
@@ -485,7 +485,7 @@ public class Main {
 
 
             } while (menu != 3);
-            System.out.println("Esta Finalizando el programa");
+            System.out.println("El calculo ha finalizado");
         }
     }
 
