@@ -12,7 +12,7 @@ public class IGVecR2 {
 
     public IGVecR2(double x, double y){
         this.x = x;
-        this.y = 0;
+        this.y = y;
     }
     public IGVecR2(IGVecR2 b){
         this.x = b.x;
@@ -40,19 +40,26 @@ public class IGVecR2 {
     }
 
     public IGVecR2 resta(IGVecR2 b){
-        //TODO: implementar
-        return new IGVecR2();
+        IGVecR2 a1 = new IGVecR2();
+        a1.x = x - (b.x);
+        a1.y = y - (b.y);
+        return a1;
     }
 
     //producto.
     public  IGVecR2 escalarPorVector(double alpha){
-        //TODO: implementar
-        return new IGVecR2();
+        IGVecR2 a1 = new IGVecR2();
+        a1.x = alpha * x;
+        a1.y = alpha * y;
+        return a1;
     }
 
     public double productoPunto(IGVecR2 b){
-        //TODO: implementar
-        return 0.0;
+        IGVecR2 a1 = new IGVecR2();
+        a1.x = x * b.x;
+        a1.y = y * b.y;
+        double a = a1.x + a1.y;
+        return a;
     }
 
 
@@ -62,19 +69,40 @@ public class IGVecR2 {
     //}
 
 
-    public double determinante(){
-        //TODO: implementar
-        return 0.0;
-    }
 
     public double angulo(IGVecR2 b){
-        //TODO: implementar
-        return 0.0;
+        IGVecR2 a1.x = new IGVecR2();
+        a1.x = x * b.x;
+        a1.y = y * b.y;
+        double a = a1.x + a1.y;
+        double c = Math.sqrt(((Math.pow(b.x,2)+Math.pow(b.y,2))));
+        double f = Math.sqrt(((Math.pow(x,2)+Math.pow(y,2))));
+        double d = Math.toDegrees(Math.acos((a/(c*f))));
+        return d;
     }
 
-    public double magnitud(){
-        return Math.sqrt(productoPunto(this));
+    public double magnitud(IGVecR2 b){
+        IGVecR2 a1 = new IGVecR2();
+        a1.x = (b.x) - x;
+        a1.y = (b.y) - y;
+        double a = Math.pow(a1.x, 2) + Math.pow(a1.y,2);
+        return Math.sqrt(a);
+    }
+    public double getX() {
+        return x;
     }
 
+    public void setX(double x) {
+        this.x = x;
+    }
+
+
+    public double getY() {
+        return y;
+    }
+
+    public void setY(double y) {
+        this.y = y;
+    }
 
 }
