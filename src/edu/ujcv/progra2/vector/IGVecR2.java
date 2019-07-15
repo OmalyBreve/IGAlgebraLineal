@@ -71,7 +71,7 @@ public class IGVecR2 {
 
 
     public double angulo(IGVecR2 b){
-        IGVecR2 a1.x = new IGVecR2();
+        IGVecR2 a1 = new IGVecR2();
         a1.x = x * b.x;
         a1.y = y * b.y;
         double a = a1.x + a1.y;
